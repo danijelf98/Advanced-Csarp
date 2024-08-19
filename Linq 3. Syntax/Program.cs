@@ -15,15 +15,16 @@
 
             Person[] filteredPeople = new Person[5];
 
+
             filteredPeople = (from person in people
-                              where person.Age > 15 && person.Age < 22
-                              select person).ToArray();
+                                 where person.Age > 15 && person.Age < 22
+                                 select person).ToArray();
 
             Console.WriteLine("People older than 15 and younger than 22 are: ");
             Console.WriteLine();
             foreach (var person in filteredPeople)
             {
-                Console.WriteLine($"{person.Id}. {person.FullName}, {person.Age}" );
+                Console.WriteLine($"{person.Id}. {person.FullName}, {person.Age}");
             }
             Console.WriteLine();
 
