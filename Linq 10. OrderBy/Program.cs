@@ -12,7 +12,9 @@ namespace Linq_10._OrderBy
                 new Person { Id = 2, FullName = "Kevin Levis", Age = 27 },
                 new Person { Id = 3, FullName = "George Harrison", Age = 22 },
                 new Person { Id = 4, FullName = "Johnny Clarkson", Age = 20 },
+                new Person { Id = 4, FullName = "Johnny Clarkson", Age = 13 },
                 new Person { Id = 5, FullName = "Austin Dunham", Age = 17 },
+                new Person { Id = 5, FullName = "Austin Dunham", Age = 25 },
             };
 
             #region OrderBy ascending
